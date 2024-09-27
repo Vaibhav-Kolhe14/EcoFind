@@ -1,10 +1,10 @@
-# E-Cycle
+# EcoFind
 
-A web application designed to help users locate and navigate to the nearest e-waste recycling facilities, book pickup services, and stay informed about e-waste management practices. E-Cycle aims to promote responsible e-waste disposal and sustainability through a user-friendly and educational platform.
+A web application designed to help users locate and navigate to the nearest e-waste recycling facilities and stay informed about e-waste management practices. EcoFind aims to promote responsible e-waste disposal and sustainability through a user-friendly and educational platform.
 
 ## Overview
 
-E-Cycle simplifies the process of finding verified e-waste recycling facilities and scheduling pickups for electronic waste disposal. The platform features location-based services, educational content on e-waste management, and a comprehensive repository of government rules and regulations, making it a one-stop solution for environmentally conscious users.
+EcoFind simplifies the process of finding verified e-waste recycling facilities and scheduling pickups for electronic waste disposal. The platform features location-based services, educational content on e-waste management, and a comprehensive repository of government rules and regulations, making it a one-stop solution for environmentally conscious users.
 
 ## Features
 
@@ -36,6 +36,30 @@ E-Cycle simplifies the process of finding verified e-waste recycling facilities 
 
 Follow the steps below to install and run the project locally:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/e-cycle.git
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/Vaibhav-Kolhe14/EcoFind.git
+```
+
+### Step 2: Navigate to Project Directory
+
+```bash
+cd EcoFind
+```
+
+### Step 3: Install Dependencies
+
+```bash
+yarn install
+```
+
+### Step 4: Start the Development Server
+
+Once the dependencies are installed, start the development server:
+
+```bash
+yarn dev
+```
+
+> Thank you for checking out my project! 
