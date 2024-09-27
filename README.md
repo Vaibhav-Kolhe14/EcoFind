@@ -8,29 +8,26 @@ EcoFind simplifies the process of finding verified e-waste recycling facilities 
 
 ## Features
 
-- **Facility Listing**: Explore a comprehensive list of e-waste recycling facilities.
-- **Verified Facilities**: Highlight verified facilities to ensure user reliability.
-- **Facility Details**: View facility information including location, contact, operational hours, and verification status.
-- **User Authentication**: Create accounts, log in, and manage personalized features.
-- **Booking System**: Schedule e-waste pickups through a secure, user-friendly booking system.
-- **Search Facilities**: Find facilities based on location and preferences.
-- **Geolocation Integration**: Utilize Mapbox API for precise location tracking.
-- **Responsive Design**: Optimized for use on desktops, tablets, and smartphones.
-- **Newsletter Signup**: Subscribe to updates on e-waste management practices and promotions.
-- **Educational Content**: Learn about e-waste impact, user responsibilities, and sustainable practices.
-- **Contact Form**: Inquire or provide feedback through a contact form.
-- **FAQ's**: Address common queries related to e-waste recycling.
-- **Analytics**: Gain insights into user interactions and platform performance.
-- **Rules and Regulations**: Stay informed about government e-waste management regulations.
+1. **Find Nearby Facilities**: Use geolocation to easily discover nearby e-waste recycling centers.
+2. **Schedule Pickup**: Users can book e-waste pickups online, making recycling convenient.
+3. **Verified Centers**: Only trusted and verified recycling facilities are featured.
+4. **Educational Resources**: A dedicated section for learning about e-waste and its environmental impact.
+5. **Fully Responsive**: Optimized for a smooth experience across all devices.
+   
+### Technologies Used
 
-## Technologies Used
+- **React.js**: 
+  A JavaScript library for building user interfaces, enabling the creation of dynamic and responsive web applications. It allows for efficient rendering of components, enhancing user experience.
 
-- **Frontend**: React.js, Next.js, Tailwind CSS
-- **Backend**: Express.js
-- **Database**: Local Storage (for session management and user login)
-- **Geolocation**: Mapbox Maps API (for tracking nearby recycling facilities)
-- **User Interface**: Tailwind CSS for responsive design
-- **Version Control**: Git and GitHub
+- **Next.js**: 
+  A powerful React framework that supports server-side rendering and static site generation, improving application performance and search engine optimization (SEO). It simplifies routing and provides built-in features like API routes.
+
+- **Mapbox API**: 
+  A mapping platform that offers geolocation services, allowing users to find nearby e-waste recycling facilities. It provides customizable maps and powerful location-based features.
+
+- **EmailJS**: 
+  A service that enables sending emails directly from the client-side application. It simplifies the contact form functionality by allowing users to communicate without needing a backend server.
+
 
 ## Installation
 
