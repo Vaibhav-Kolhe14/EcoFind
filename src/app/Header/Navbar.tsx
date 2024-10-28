@@ -41,7 +41,7 @@ const Header = () => {
           const lat = position.coords.latitude;
           const lon = position.coords.longitude;
 
-          fetch(`https://api.mapbox.com/geocoding/v5/mapbox.places/${lon},${lat}.json?access_token=pk.eyJ1Ijoic2h1ZW5jZSIsImEiOiJjbG9wcmt3czMwYnZsMmtvNnpmNTRqdnl6In0.vLBhYMBZBl2kaOh1Fh44Bw`)
+          fetch(`Replace with MapBox API`)
             .then(response => response.json())
             .then(data => {
               const city = data.features[0].context.find((context: { id: string | string[]; }) => context.id.includes('place')).text;
